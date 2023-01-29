@@ -1,4 +1,4 @@
-// JAVASCRIPT OBJECT NOTATION used to transfer and store data as and when needed
+
 {
     "manifest_version": 3,
     "version": "1.0",
@@ -10,5 +10,5 @@
     "permissions":[
         "tabs"
     ]
-    // giving permission to access chrome api
+    
 }

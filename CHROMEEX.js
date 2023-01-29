@@ -19,6 +19,8 @@ let deletebtn = document.getElementById("delete-btn")
 
 const leadsfromlocal = JSON.parse(localStorage.getItem("myLeads"))
 
+let tabbtn = document.getElementById("tab-btn")
+
 // good to practise const
 
 if(leadsfromlocal){
@@ -32,7 +34,7 @@ if(leadsfromlocal){
 //     {url: "https://www.linkedin.com/in/per-harald-borgen/"}
 // ]
 
-tabBtn.addEventListener("click", function(){
+tabbtn.addEventListener("click", function(){
     // Save the url instead of logging it out
     // console.log(tabs[0].url)
     
